@@ -3,22 +3,25 @@ var customerName = 'bob';
 function upperCaseCustomerName() {
     customerName = customerName.toUpperCase();
 }
-console.log(upperCaseCustomerName())
+console.log(customerName)
 
 function setBestCustomer() {
     window.bestCustomer = 'not bob';
 }
-console.log(setBestCustomer())
+console.log(bestCustomer)
 
 function overwriteBestCustomer() {
     bestCustomer = 'maybe bob';
 }
-console.log(overwriteBestCustomer())
+console.log(bestCustomer)
 
 const leastFavoriteCustomer = 'somebody';
-console.log(leastFavoriteCustomer())
+console.log(leastFavoriteCustomer)
 
 function changeLeastFavoriteCustomer() {
-    leastFavoriteCustomer = 'anybody'; 
+    leastFavoriteCustomer = 'anybody'
 }
-console.log(changeLeastFavoriteCustomer())
+
+
+
+
