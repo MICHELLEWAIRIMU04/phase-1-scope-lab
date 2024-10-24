@@ -21,7 +21,7 @@ console.log(leastFavoriteCustomer)
 function changeLeastFavoriteCustomer() {
     leastFavoriteCustomer = 'anybody'
 }
-
+console.log(changeLeastFavoriteCustomer())
 
 
 
